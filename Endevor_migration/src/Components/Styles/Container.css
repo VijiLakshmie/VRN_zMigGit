@@ -1,0 +1,156 @@
+/* Apply box-sizing globally */
+* {
+  box-sizing: border-box;
+}
+
+.content_display {
+    margin: 20px auto;
+    height: 95%;
+    width: 90%;
+    max-width: 1000px;
+    box-shadow: 3px 4px 8px 0px rgba(0, 0, 0, 0.425);
+    background-color: white;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 3px solid green ;
+}
+
+/* Inner box for upload area */
+.chosefile {
+    padding: 20px;
+    border: 2px dashed #aaa;
+    background-color: #f9f9f9;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Down arrow */
+.arrow {
+    font-size: 50px;
+    animation: bounce 1s ease-in-out infinite;
+    margin: 10px 0;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Stylish file input */
+.upload_input {
+  display: none;
+}
+
+.upload_button {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 24px;
+  background-color: #900C3F; /* red */
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.upload_button:hover {
+  background-color: #c0392b;
+}
+
+.upload_icon {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.spinner {
+  width: 30px;
+  height: 30px;
+  border: 4px solid #ccc;
+  border-top: 4px solid #007BFF;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 15px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+.success_text {
+  font-weight: bold;
+  color: green;
+  font-size: 18px;
+  text-align: center;
+}
+
+.waiting_text {
+  font-weight: bold;
+  color: #555;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+
+.select {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.select_bar {
+  appearance: none;
+  padding: 10px 40px 10px 15px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+  /* background-image: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='12'%20height='12'%20viewBox='0%200%2024%2024'%3E%3Cpath%20fill='gray'%20d='M7%2010l5%205%205-5z'/%3E%3C/svg%3E"); */
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 16px 16px;
+  cursor: pointer;
+}
+
+.load_button_wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.loadbtns {
+  padding: 10px 30px;
+  font-size: 1rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.loadbtns:hover {
+  background-color: #555;
+}
+
+
+
+
+
+
+
+

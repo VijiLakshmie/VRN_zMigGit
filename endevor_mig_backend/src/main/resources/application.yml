@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: endevor_migration
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: test
+
+server:
+  port: 9090
+
+custom:
+  base-path: C:\\Test
+  report-path: C:\\Report

@@ -1,0 +1,47 @@
+.refresh-section {
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+.folder {
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.subfolder {
+  margin-left: 1.5rem;
+  margin-top: 0.3rem;
+}
+
+.file {
+  margin-left: 2rem;
+}
+
+.folder-view {
+  width: 100%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border: none;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  padding: 20px; /* NEW for inner spacing */
+}
+
+.del_btns {
+  margin-top: 20px;
+  margin-left: 40px;
+  height: 50px;
+  width: 210px;
+  background-color: #3f3f3f;
+  color: white;
+  font-size: larger;
+  border: none;
+  border-radius: 5px;
+}
+.del_btns:hover {
+  color: #68cca2;
+  cursor: pointer;
+}
+
+.inside_folder {
+  margin: 30px; 
+}

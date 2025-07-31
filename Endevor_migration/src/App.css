@@ -1,0 +1,74 @@
+body{
+  margin: 0px;
+}
+.heading{
+  text-align: center;
+  height: 100px;
+  width: auto;
+  background-color: #840227;
+  color: aliceblue;
+}
+.heading_style{
+  margin: 0px;
+  font-size: 80px;
+}
+.Btns_container {
+  margin-top: 20px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Space between buttons */
+}
+.btnsandcontainer{
+  display: flex;
+}
+
+.welcome_message {
+    margin: 40px auto;
+    height: 500px;
+    width: 90%;
+    max-width: 1000px;
+    height: auto;
+    box-shadow: 3px 4px 8px 0px rgba(0, 0, 0, 0.425);
+    background-color: white;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 3px solid green ;
+    text-align: center;
+    color: #555;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.welcome_message h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.welcome_message p {
+  font-size: 18px;
+}
+
+html, body, #root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+}
+
+.footer {
+  margin-top: auto;
+  height: 70px;
+  background-color: #840227;
+  color: white;
+  text-align: center;
+}
+
+
+
+

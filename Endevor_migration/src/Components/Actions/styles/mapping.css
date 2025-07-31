@@ -1,0 +1,54 @@
+.mapping_section {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  margin-top: 10px;
+}
+
+.mapping_table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.mapping_table th,
+.mapping_table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.mapping_table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.loading_text,
+.error_text,
+.empty_text {
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+
+.spinner {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 20px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.mapping_table td {
+  vertical-align: top;
+  padding: 8px;
+  white-space: pre-wrap; /* just in case */
+}

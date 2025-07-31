@@ -1,0 +1,21 @@
+.success_text {
+  font-size: 18px;
+  color: green;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.report_link {
+  display: block;           
+  margin: 8px 0;            
+  text-decoration: none;    
+  color: #0056b3;           
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.report_link:hover {
+  color: #004099;     
+  text-decoration: underline;
+}

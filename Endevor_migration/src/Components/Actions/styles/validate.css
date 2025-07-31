@@ -1,0 +1,65 @@
+.validate_container {
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.validate_container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.report_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.report_info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.report_info h3 {
+  margin: 0;
+  color: #222;
+}
+
+.report_button {
+  margin-left: 30px;
+  background-color: #3f3f3f;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.report_button:hover {
+    color: #68cca2;
+    cursor: pointer;
+}
+
+.spinner_small {
+  width: 18px;
+  height: 18px;
+  border: 3px solid #ccc;
+  border-top: 3px solid #007bff;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
