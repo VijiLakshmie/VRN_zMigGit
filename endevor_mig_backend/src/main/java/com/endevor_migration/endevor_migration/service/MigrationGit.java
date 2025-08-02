@@ -167,8 +167,8 @@ public class MigrationGit {
                 username = "username"; // GitHub Username
                 token = "token"; // GitHub Token
             } else if ("gitlab".equalsIgnoreCase(platform)) {
-                uri = "https://gitlab.com/username-group/repo.git"; // GitLab Repo URL
-                username = "username"; // GitHub Username
+                uri = "https://gitlab.com/vrn_zmig_repo/vrx_zmig_repo1.git"; // GitLab Repo URL
+                username = "username"; // GitLab Username
                 token = "token"; // GitLab Token
             }
 
